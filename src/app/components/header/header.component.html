@@ -1,0 +1,22 @@
+<div class="nav-wrapper">
+    <div data-offset-top="30" data-spy="affix" style="z-index: 1;" class="affix-top">
+        <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+            <span class="navbar-brand mb-0 h1 headerFirstName">Golden Hands Of 
+            <span class="navbar-brand mb-0 h1">Grace</span></span>
+            <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="#">Articles </a>
+                    <a class="nav-item nav-link" routerLink="/books">Books</a>
+                    <a class="nav-item nav-link" href="#">Promise Words</a>
+                    <a class="nav-item nav-link" href="#">Audio & Video</a>
+                    <a class="nav-item nav-link" href="#">Features</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<router-outlet></router-outlet>
+<app-footer></app-footer>

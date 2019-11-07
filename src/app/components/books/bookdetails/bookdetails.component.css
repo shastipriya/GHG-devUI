@@ -1,0 +1,24 @@
+.img-author {
+    border: 1px solid #c6000e;
+    border-radius: 50%;
+}
+.name-author p{
+    color:#c6000e;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: 0;
+    
+}
+.book-download {
+    width: 100%;
+    border: none;
+    background-color: #c6000e;
+    color: #fff;
+    outline: none;
+    font-weight: 500;
+}
+.book-content p{
+    margin-bottom: 0;
+    overflow-wrap: break-word;
+}

@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+/* navbar */
+.nav-wrapper {
+    min-height: 60px;
+}
+.headerFirstName{
+      margin-right:0 !important;
+      color: #c6000e !important;
+}
+.stickyHeader {
+    background: #fff;
+    box-shadow: 0 3px 12px 0 rgba(0,0,0,.08);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav-wrapper nav{
+    box-shadow: 3px 3px 7px 2px #ccc;
+}
+/* navbar end */
+/* banner header */
+.banner {
+    padding-top:15px;
+}
+.banner_holder{
+    width: auto;
+    height: 300px;
+    min-height: 200px;
+    position: relative;
+    padding-top:15px;
+}
+
+.banner_holderImage{
+    height: 100%;
+    position:relative;
+    background:   url("./assets/banner.png")no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.headerText-size{
+    font-size:16px;
+}
+@media (max-width: 768px){
+    .banner_holder{
+        height: 150px;
+    }
+    .headerText-size{
+        font-size:12px;
+    }
+}
+
+/* end banner header */
+/* footer */
+.footer{
+    background-color: #00000012;
+    font-size:14px;
+}
+
+/* end footer */

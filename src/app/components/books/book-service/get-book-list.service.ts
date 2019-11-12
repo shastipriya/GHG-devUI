@@ -11,6 +11,6 @@ export class GetBookListService {
    }
 
   public sendBookList(){
-    return this.httpClient.get('http://localhost:7777/books/list');
+    return this.httpClient.get('http://13.232.169.140:7777/books/list');
    }
 }

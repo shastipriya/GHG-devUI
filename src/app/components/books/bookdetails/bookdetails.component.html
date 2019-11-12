@@ -1,34 +1,33 @@
 <div class="container-fluid mt-4 mb-0">  
     <div class="row">  
-      <div class="col-lg-2 col-md-4 col-4 mh-100" style="border:1px solid red">
+      <div class="col-lg-2 col-md-4 col-4 mh-100">
           <div class="container">
               <div class="row ">
                   <div class="col-lg-12 col-md-12 col-12 text-center mt-2">
                         <img class="img-fluid img-author" src="../../../assets/user.png" alt="" >
                   </div>
                   <div class="col-lg-12 col-md-12 col-12 text-left mt-2 name-author">
-                        <p>JESUS CHRIST</p>
+                        <p>{{bookInfo?.AuthorName}}</p>
                   </div>
                   <div class="col-lg-12 col-md-12 col-12 text-left mt-1 desc-author">
-                        <p>Tony Reinke is the founder and executive director of Frontline Missions International. He has traveled to more than ninety countries, reporting on the church. He is the executive producer of Dispatches from the Front and author.</p>
+                        <p>{{bookInfo?.AuthorDesc}}</p>
                   </div>
                   <div class="col-lg-12 col-md-12 col-12 text-center">
-                        <img class="img-fluid img-thumbnail" src="../../../assets/book.jpg" alt="" >
+                        <img class="img-fluid img-thumbnail" [src]="bookInfo?.thumbNailPath" alt="" >
                   </div>
                   <div class="col-lg-12 col-md-12 col-12 text-center mt-2 mb-1">
-                        <button type="submit" name="bookDownload" class="book-download" (click) = "downloadBook('GHGV1.pdf')">Download</button>
+                        <button type="submit" name="bookDownload" class="book-download" (click) = "downloadBook(bookInfo?.bookOriginalName)">Download</button>
                   </div>
               </div>
           </div>        
       </div> 
-      <div class="col-lg-10 col-md-8 col-8 mh-100" style="border:1px solid blue">
+      <div class="col-lg-10 col-md-8 col-8 mh-100" >
           <div class="container">
               <div class="row">
                     <div class="col-lg-12 col-md-12 col-12 text-left mt-2 book-title">
-                        <h2>12 Ways Your Phone Is Changing You</h2>
+                        <h2>{{bookInfo?.bookName}}&nbsp;&nbsp;<img class="img-fluid ing-flip" src="../../../assets/flipbook.png" alt="" width="3%" (click) = "openFlipBook(bookInfo?.bookName);"></h2>
                     </div>
-                    <div class="col-lg-12 col-md-12 col-12 text-left mt-2 book-content" [innerHTML]="bookContent">
-                       
+                    <div class="col-lg-12 col-md-12 col-12 text-left mt-2 book-content" [innerHTML]="bookContent">                       
                     </div>
               </div>
           </div>

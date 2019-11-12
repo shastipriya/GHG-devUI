@@ -8,11 +8,11 @@
             </button>
             <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link" href="#">Articles </a>
-                    <a class="nav-item nav-link" routerLink="/books">Books</a>
-                    <a class="nav-item nav-link" href="#">Promise Words</a>
-                    <a class="nav-item nav-link" href="#">Audio & Video</a>
-                    <a class="nav-item nav-link" href="#">Features</a>
+                    <a class="nav-item nav-link" href="#" [routerLinkActive]="['active']">Articles </a>
+                    <a class="nav-item nav-link " routerLink="/books" [routerLinkActive]="['active']">Books</a>
+                    <a class="nav-item nav-link" href="#" [routerLinkActive]="['active']">Promise Words</a>
+                    <a class="nav-item nav-link" href="#" [routerLinkActive]="['active']">Audio & Video</a>
+                    <a class="nav-item nav-link" href="#" [routerLinkActive]="['active']">Features</a>
                 </div>
             </div>
         </nav>

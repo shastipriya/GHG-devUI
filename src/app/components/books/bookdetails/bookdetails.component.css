@@ -18,7 +18,8 @@
     outline: none;
     font-weight: 500;
 }
-.book-content p{
-    margin-bottom: 0;
+.book-content p {
+    border: 1px solid red;
+    margin-bottom: 0 !important;
     overflow-wrap: break-word;
 }

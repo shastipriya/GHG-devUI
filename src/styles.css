@@ -5,10 +5,7 @@
 .nav-wrapper {
     min-height: 60px;
 }
-.headerFirstName{
-      margin-right:0 !important;
-      color: #c6000e !important;
-}
+
 .stickyHeader {
     background: #fff;
     box-shadow: 0 3px 12px 0 rgba(0,0,0,.08);
@@ -51,11 +48,7 @@
     }
 }
 
-/* end banner header */
-/* footer */
-.footer{
-    background-color: #00000012;
-    font-size:14px;
+.cursor{
+    cursor: pointer;
 }
 
-/* end footer */

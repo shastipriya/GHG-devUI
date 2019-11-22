@@ -2,14 +2,7 @@
     border: 1px solid #c6000e;
     border-radius: 50%;
 }
-.name-author p{
-    color:#c6000e;
-    font-weight: 700;
-    font-style: italic;
-    font-size: 15px;
-    margin-bottom: 0;
-    
-}
+
 .book-download {
     width: 100%;
     border: none;
@@ -22,4 +15,12 @@
     border: 1px solid red;
     margin-bottom: 0 !important;
     overflow-wrap: break-word;
+}
+.book-title h2{
+    display: inline;
+    position: relative;
+    top: 8px;
+}
+.book-title img{
+    width: 25px;
 }

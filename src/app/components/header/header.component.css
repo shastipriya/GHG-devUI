@@ -1,3 +1,7 @@
 .navbar-light .navbar-nav .nav-link.active{
     color: #c6000e; 
     }
+.headerFirstName::first-letter{
+    color: #c6000e; 
+    padding-left:5px;
+}

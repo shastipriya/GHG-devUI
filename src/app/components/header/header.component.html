@@ -1,22 +1,22 @@
 <div class="nav-wrapper">
     <div data-offset-top="30" data-spy="affix" style="z-index: 1;" class="affix-top">
         <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
-            <span class="navbar-brand mb-0 h1 headerFirstName">Golden Hands Of 
-            <span class="navbar-brand mb-0 h1">Grace</span></span>
+            <a href=""><span class="navbar-brand mb-0 h1 mr-0 headerFirstName">Golden<span class="navbar-brand mb-0 h1  mr-0 headerFirstName">Hands&nbsp;of<span class="navbar-brand mb-0 h1  mr-0 headerFirstName">Grace</span></span></span></a>
             <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
                     <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link" href="#" [routerLinkActive]="['active']">Articles </a>
-                    <a class="nav-item nav-link " routerLink="/books" [routerLinkActive]="['active']">Books</a>
-                    <a class="nav-item nav-link" href="#" [routerLinkActive]="['active']">Promise Words</a>
-                    <a class="nav-item nav-link" href="#" [routerLinkActive]="['active']">Audio & Video</a>
-                    <a class="nav-item nav-link" href="#" [routerLinkActive]="['active']">Features</a>
+                    <a class="nav-item nav-link" href="#" [routerLinkActive]="['active']" (click)="toggleNavbar()">Articles </a>
+                    <a class="nav-item nav-link " routerLink="/books" [routerLinkActive]="['active']" (click)="toggleNavbar()">Books</a>
+                    <a class="nav-item nav-link" routerLink="/gallery" href="#" [routerLinkActive]="['active']" (click)="toggleNavbar()">Promise Words</a>
+                    <a class="nav-item nav-link" href="#" [routerLinkActive]="['active']" (click)="toggleNavbar()">Audio & Video</a>
+                    <a class="nav-item nav-link" href="#" [routerLinkActive]="['active']" (click)="toggleNavbar()">Features</a>
                 </div>
             </div>
         </nav>
     </div>
 </div>
+<ngx-loading-bar></ngx-loading-bar>
 <router-outlet></router-outlet>
 <app-footer></app-footer>

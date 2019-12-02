@@ -18,24 +18,8 @@
 }
 /* navbar end */
 /* banner header */
-.banner {
-    padding-top:15px;
-}
-.banner_holder{
-    width: auto;
-    height: 300px;
-    min-height: 200px;
-    position: relative;
-    padding-top:15px;
-}
 
-.banner_holderImage{
-    height: 100%;
-    position:relative;
-    background:   url("./assets/banner.png")no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+
 .headerText-size{
     font-size:16px;
 }

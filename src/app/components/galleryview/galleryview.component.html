@@ -6,6 +6,6 @@
   </div>  
 </div>
 <ks-modal-gallery [id]="205" [modalImages]="images"
-[plainGalleryConfig]="customPlainGalleryRowConfig"></ks-modal-gallery>
+[plainGalleryConfig]="customPlainGalleryRowConfig"  [dotsConfig]="{visible: false}"  [slideConfig]="{infinite: true}"></ks-modal-gallery>
 <ngb-pagination class="d-flex justify-content-center" [(page)]="page" [pageSize]="pageSize" [collectionSize]="('36')" (pageChange) = "nextPage(page)"></ngb-pagination>
 

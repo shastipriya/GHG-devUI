@@ -10,8 +10,8 @@ export class GetBookDetailsService {
 
   constructor(private http:HttpClient) { }
   
-  public getBookDetailById(id){
-      return this.http.get('http://13.232.169.140:7777/book/'+id);
+  public getBookDetailById(){
+      return this.http.get('../../../assets/BookList.json');
   }
   // public downloadBookById(fileName): Observable<Blob>{
   //   return this.http

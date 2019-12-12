@@ -16,7 +16,7 @@ import { FooterComponent } from './components/footer/footer.component';
 // ********************** angular-modal-gallery *****************************
 import 'hammerjs'; 
 import 'mousetrap'; 
-import { GalleryModule } from '@ks89/angular-modal-gallery'; 
+import { GalleryModule } from '@ks89/angular-modal-gallery';
 // **************************************************************************
 
 

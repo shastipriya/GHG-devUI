@@ -35,4 +35,29 @@
 .cursor{
     cursor: pointer;
 }
-
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;   
+}
+.page-link{
+    color: #dc3545;
+}
+.page-link:hover{
+    color: #dc3545;
+    background-color: rgba(195, 28, 115, 0.14);
+    border-color: rgba(195, 28, 115, 0.14); 
+}
+.page-item.disabled .page-link{
+    color: #dc3545;
+}
+.page-link:focus {
+    box-shadow: 0 0 0 0 #fff;
+}
+button.btn.btn-link:hover{
+    color:#d5144b !important;
+}
+button.btn.btn-link{
+    color:#d5144b !important;
+}

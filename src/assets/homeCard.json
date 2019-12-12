@@ -1,0 +1,67 @@
+[
+  {
+    "Id": 1,
+    "mainTitle": "Book",
+    "specificTitle":"The Lord Who Never Cast You Away",
+    "date":"Dec 5,2019",
+    "content": "You also might be in the same situation of backsliding in your spiritual life,you might have gone far away from Jesus Christ because of your lust, you might have been put to shame by the people around you, you might have been discouraged and depressed by the guilty feelings of your heart, you might have thought that you can never get in line with God and moreover you might be in a situation where no one was there to give you a comforting word; Don’t be troubled, my dear Child. Jesus loves you.",
+    "link":"/books"
+  },
+  {
+    "Id": 2,
+    "mainTitle": "Book",
+    "date":"Dec 5,2019",
+    "specificTitle": "The Lord Who Never Cast You Away - Tamil",
+    "content": "You also might be in the same situation of backsliding in your spiritual life,you might have gone far away from Jesus Christ because of your lust, you might have been put to shame by the people around you, you might have been discouraged and depressed by the guilty feelings of your heart, you might have thought that you can never get in line with God and moreover you might be in a situation where no one was there to give you a comforting word; Don’t be troubled, my dear Child. Jesus loves you.",
+    "link":"/books"
+  },
+  {
+    "Id": 3,
+    "mainTitle": "Book",
+    "date":"Dec 5,2019",
+    "specificTitle": "God's Word To You (Vol-1)",
+    "content": "If you wish, you can share this E-book with your friends.Feel free to use it for the glory of God but do not use this E-book for any commercial gain.When you use any aritcle from this book for your blog or website,kindly include the following line:©GHG e-PUBLISHERS. USED WITH PERMISSION",
+    "link":"/books"
+  },
+  {
+    "Id": 4,
+    "mainTitle": "Book",
+    "date":"Dec 5,2019",
+    "specificTitle": "God's Word To You (Vol-2)",
+    "content": "If you wish, you can share this E-book with your friends.Feel free to use it for the glory of God but do not use this E-book for any commercial gain.When you use any aritcle from this book for your blog or website,kindly include the following line:©GHG e-PUBLISHERS. USED WITH PERMISSION",
+    "link":"/books"
+  },
+  {
+    "Id": 5,
+    "mainTitle": "Book",
+    "date":"Dec 5,2019",
+    "specificTitle": "God's Word To You (Vol-3)",
+    "content": "If you wish, you can share this E-book with your friends.Feel free to use it for the glory of God but do not use this E-book for any commercial gain.When you use any aritcle from this book for your blog or website,kindly include the following line:©GHG e-PUBLISHERS. USED WITH PERMISSION",
+    "link":"/books"
+  },
+  {
+    "Id": 6,
+    "mainTitle": "Book",
+    "date":"Dec 5,2019",
+    "specificTitle": "God's Word To You (Vol-4)",
+    "content": "If you wish, you can share this E-book with your friends.Feel free to use it for the glory of God but do not use this E-book for any commercial gain.When you use any aritcle from this book for your blog or website,kindly include the following line:©GHG e-PUBLISHERS. USED WITH PERMISSION",
+    "link":"/books"
+  },
+  {
+    "Id": 7,
+    "mainTitle": "Book",
+    "date":"Dec 5,2019",
+    "specificTitle": "GHG Devotionals 2018",
+    "content": "If you wish, you can share this E-book with your friends.Feel free to use it for the glory of God but do not use this E-book for any commercial gain.When you use any aritcle from this book for your blog or website,kindly include the following line:©GHG e-PUBLISHERS. USED WITH PERMISSION",
+    "link":"/books"
+  },
+  {
+    "bookId": 8,
+    "mainTitle": "Book",
+    "date":"Dec 5,2019",
+    "specificTitle": "kiriyaigal",
+    "content": "If you wish, you can share this E-book with your friends.Feel free to use it for the glory of God but do not use this E-book for any commercial gain.When you use any aritcle from this book for your blog or website,kindly include the following line:©GHG e-PUBLISHERS. USED WITH PERMISSION",
+    "link":"/books"
+  }
+
+]

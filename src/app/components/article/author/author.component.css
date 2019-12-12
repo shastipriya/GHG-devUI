@@ -1,0 +1,10 @@
+.authorList .thumbNailText{
+    color:#d5144b ;
+    overflow-wrap: break-word;
+}
+.authorList a{
+    color:#d5144b ;
+}
+.authorList img{
+    height:400px;
+}

@@ -1,0 +1,47 @@
+<div class="container-fluid mt-4 mb-0">  
+    <div class="row">  
+        <div class="col-lg-2 col-md-4  mh-100 d-none d-sm-block">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-12 col-md-12 col-12 text-center mt-2">
+                            <img class="img-fluid img-author" src="../../../assets/user.png" alt="" >
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-12 text-left mt-2 name-author">
+                            <p>{{pageInfo?.authorName}}</p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-12 text-left mt-1 desc-author">
+                        <p [innerHTML]="pageInfo?.authorDetail"></p>
+                    </div>
+                </div>
+            </div>        
+        </div> 
+        <div class="col-lg-10 col-md-8 col-12 mh-100" >
+            <div class="container">
+                <div class="row">                       
+                    <div class="col-lg-12 col-md-12 col-12 text-left mt-2 book-title">
+                        <ngb-accordion #acc="ngbAccordion" activeIds="config-panel-one"  *ngFor = "let article of pageInfo?.articles">
+                            <ngb-panel [title]="article?.articleTitle" id="config-panel-one">
+                                <ng-template ngbPanelContent>
+                                    <div [innerHTML]="article?.content"></div>
+                                </ng-template>
+                            </ngb-panel>
+                       </ngb-accordion>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="col-12 d-block d-sm-none">
+            <div class="container">
+                <div class="row ">                   
+                    <div class="col-lg-12 col-md-12 col-12 text-left mt-2 name-author">
+                            <p>{{pageInfo?.authorName}}</p>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-12 text-left mt-1 desc-author">
+                        <p [innerHTML]="pageInfo?.authorDetail"></p>
+                    </div>
+                </div>
+            </div>        
+        </div>    
+    </div>  
+</div>
+

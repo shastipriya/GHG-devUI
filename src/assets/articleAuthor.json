@@ -1,0 +1,52 @@
+[     
+    {        
+    "articleAuthorId":1,
+    "authorName": "JERINA JOY",
+    "date":"Dec 5,2019",
+    "authorDetail": "<p>GHG team thank Ms. Jerina Joy for permitting us to use her article. May God bless her abundantly and use her for His glory. If you wish to send your article, mail it to <a href=\"mailto:mailtoghg@gmail.com\" target=\"_blank\"> mailtoghg@gmail.com</a></p>",
+    "authorImg":"../../assets/article/author/jerinajoy.png"
+    },
+    {        
+    "articleAuthorId":2,
+    "authorName": "RAVI SHANKAR",
+    "date":"Dec 5,2019",
+    "authorDetail": "<p>This article was written by Mr. Ravi Shankar. He is currently working as a software engineer. GHG team thank Mr. Ravi for the article. May God bless him abundantly. If you wish to send your own article, kindly mail it to <a href=\"mailto:mailtoghg@gmail.com\" target=\"_blank\"> mailtoghg@gmail.com</a></p>",
+    "authorImg":"../../assets/article/author/ravishankar.png"
+    },
+    {        
+    "articleAuthorId":3,
+    "authorName": "AYSHWARYA",
+    "date":"Dec 5,2019",
+    "authorDetail": "<p> My dear young friends, this article was written by Ms. Ayshwarya. She is working as a guest lecturer in a college. GHG team thank Ms. Ayshwarya for the article. May God bless her abundantly. If you wish to send your article, mail it to <a href=\"mailto:mailtoghg@gmail.com\" target=\"_blank\"> mailtoghg@gmail.com</a></p>",
+    "authorImg":"../../assets/article/author/ayshwarya.png"
+    },
+    {        
+    "articleAuthorId":4,
+    "authorName": "SHALINA PERCY DELICIA",
+    "date":"Dec 5,2019",
+    "authorDetail": "<p> GHG team thank Ms. Shalina Percy Delicia for permitting us to use her poem. May God bless her abundantly and use her for His glory. If you wish to send your article, mail it to <a href=\"mailto:mailtoghg@gmail.com\" target=\"_blank\"> mailtoghg@gmail.com</a></p>",
+    "authorImg":"../../assets/article/author/shalinapercydelicia.png"
+    },
+    {        
+    "articleAuthorId":5,
+    "authorName": "AGNES POULOSE",
+    "date":"Dec 5,2019",
+    "authorDetail": "<p> This article was written by Ms. Agnes Poulose. She is an engineer. GHG team thank Ms. Agnes Poulose for the article. May God bless her abundantly. If you wish to send your own article, kindly mail it to <a href=\"mailto:mailtoghg@gmail.com\" target=\"_blank\"> mailtoghg@gmail.com</a></p>",
+    "authorImg":"../../assets/article/author/agnespoulose.png"
+    },
+    {        
+    "articleAuthorId":6,
+    "authorName": "JENIFER MERY",
+    "date":"Dec 5,2019",
+    "authorDetail": "<p> My dear young friends, this article was written by Ms. Jenifer Mery. She is working as a counsellor in a Christian University. GHG team thank Ms. Jenifer Mery for the article. May God bless her abundantly. If you wish to send your article, mail it to <a href=\"mailto:mailtoghg@gmail.com\" target=\"_blank\"> mailtoghg@gmail.com</a></p>",
+    "authorImg":"../../assets/article/author/jenifiermery.png"
+    },
+    {        
+    "articleAuthorId":0,
+    "authorName": "anonymous",
+    "date":"Dec 5,2019",
+    "authorDetail": "<p> My dear young friends, The author who submitted this article does not want to reveal the identity and henceforth the name and the email id of the author was not published. Guest authors are always welcome in this blog and if you want to share your testimony or any article of yours, kindly send it to me at <a href=\"mailto:mailtoghg@gmail.com\" target=\"_blank\"> mailtoghg@gmail.com</a>. God bless you.</p>",
+    "authorImg":"../../assets/article/author/anonymous.png"
+    }
+ 
+]

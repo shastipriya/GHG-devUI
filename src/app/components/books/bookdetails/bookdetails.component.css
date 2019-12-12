@@ -16,11 +16,14 @@
     margin-bottom: 0 !important;
     overflow-wrap: break-word;
 }
-.book-title h2{
+.book-title h3{
     display: inline;
     position: relative;
     top: 8px;
 }
 .book-title img{
     width: 25px;
+}
+.book-title h3{
+    color:#d21547;
 }

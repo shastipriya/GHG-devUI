@@ -1,7 +1,13 @@
 .navbar-light .navbar-nav .nav-link.active{
-    color: #c6000e; 
+    color: rgb(212, 40, 33);
     }
 .headerFirstName::first-letter{
-    color: #c6000e; 
+    color: #d5144b;
     padding-left:5px;
+}
+.navbar-light .navbar-brand,.navbar-light .navbar-brand:hover {
+    color: rgb(195, 28, 115);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(195, 28, 115);
 }

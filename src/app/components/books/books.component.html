@@ -1,10 +1,11 @@
 <div class="container-fluid mt-4 mb-0">  
   <div class="row text-center text-lg-left booksList">  
-    <div class="col-lg-3 col-md-4 col-12" *ngFor = "let book of booksDetails;">
-      <a class="d-block mb-4 h-100" [routerLinkActive]="['active']" [routerLink]="['/book',book.bookId]">
+    <div class="col-lg-3 col-md-4 col-12" *ngFor = "let book of booksDetails| slice: (page-1) * pageSize : (page-1) * pageSize + pageSize">
+      <a class="d-block mb-4 h-100" [routerLinkActive]="['active']" [routerLink]="['/books',book.bookId]" [state]=book>
         <img class="img-fluid img-thumbnail" [src]="book.thumbNailPath" alt="" >
-          <p class="thumbNailText">{{book.bookName}}</p>
+          <p class="thumbNailText">{{book.bookName}}&nbsp;-&nbsp;{{book.language}}</p>
       </a>
     </div>     
   </div>  
 </div>
+<ngb-pagination class="d-flex justify-content-center" [(page)]="page" [pageSize]="pageSize" [collectionSize]="(bookLength)"></ngb-pagination>

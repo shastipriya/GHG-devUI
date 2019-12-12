@@ -1,8 +1,10 @@
 .booksList .thumbNailText{
-    color:#c6000e ;
+    color:#d5144b ;
     overflow-wrap: break-word;
 }
 .booksList a{
-    color:#c6000e ;
+    color:#d5144b ;
 }
-
+.booksList img{
+    height:400px;
+}

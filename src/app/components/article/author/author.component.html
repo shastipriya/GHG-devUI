@@ -1,0 +1,11 @@
+<div class="container-fluid mt-4 mb-0">  
+    <div class="row text-center text-lg-left authorList">  
+      <div class="col-lg-3 col-md-4 col-12" *ngFor = "let author of authors| slice: (page-1) * pageSize : (page-1) * pageSize + pageSize">
+        <a class="d-block mb-4 h-100" [routerLinkActive]="['active']" [routerLink]="['/articles',author.articleAuthorId]">
+          <img class="img-fluid img-thumbnail" [src]="author.authorImg" alt="" >
+            <p class="thumbNailText">{{author.authorName}}&nbsp;</p>
+        </a>
+      </div>     
+    </div>  
+  </div>
+  <ngb-pagination class="d-flex justify-content-center" [(page)]="page" [pageSize]="pageSize" [collectionSize]="(authorLength)"></ngb-pagination>
